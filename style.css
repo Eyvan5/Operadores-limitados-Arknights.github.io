@@ -1,0 +1,179 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+main {
+    background-image: url(1233538.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start start ;
+    background-color: rgba(0, 0, 0, 0.518);
+}
+.content {
+    background-color: rgba(0, 0, 0, 0.518);
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+h2, h1 {
+    text-align: center;
+}
+p {
+    text-align: center;   
+}
+
+.Operadores {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+.ark {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.700);
+
+}
+.listado {
+    padding: 20px;
+}
+.general, .dragon, .verano, .collab {
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.700);
+    overflow: hidden;
+    cursor: pointer;
+}
+.dragon {
+    color: rgba(8, 255, 152) ;  
+}
+.general {
+    color: rgba(228, 228, 93);
+}
+.verano {
+    color: rgba(8, 107, 255) ;    
+}
+.collab {
+    color: rgba(230, 35, 35);
+}
+.dragon:hover {
+    background-color: rgba(8, 255, 152, 0.700);
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.general:hover {
+    background-color: rgba(228, 228, 93, 0.700);
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.verano:hover {
+    background-color: rgba(8, 107, 255, 0.700);
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.collab:hover {
+    background-color: rgba(230, 35, 35, 0.700);
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.titulo {
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+.categorias {
+    color: white;
+}
+
+.g {
+    color:rgba(228, 228, 93, 0.700);
+}
+.d {
+    color: rgba(8, 255, 152, 0.700) ;
+}
+.v {
+    color: rgba(8, 107, 255);
+}
+.c {
+    color: rgba(230, 35, 35, 0.700) ;
+}
+.header {
+    display: flex;
+    width: 98,5%;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+.logo {
+    height: 40px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.input {
+    border: none;
+    outline: none;
+    max-width: 200px;
+}
+.barra-de-nav {
+    display: flex;
+    align-items: center;
+}
+.fa-bars {
+    color: aliceblue;
+    font-size: 40px;
+    cursor: pointer;
+}
+img {
+    height: 150px;
+}
+nav {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.footer {
+    display: flex;
+    height: 300px;
+    background-color: black;
+}
+.fa-magnifying-glass {
+    cursor: pointer;
+}
+@media screen and (max-width: 481px) {
+    li img {
+        height: 110px;
+    }
+    .general, .dragon, .verano, .collab {
+        margin: 5px;
+    }
+    .content {
+        width: 100%;
+    }
+    .listado {
+        padding: 10px 0px 10px 0px;
+
+    }
+    main {
+        background-size: contain;
+    }
+}
